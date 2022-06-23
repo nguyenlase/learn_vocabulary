@@ -21,6 +21,7 @@ const AddForm = () => {
                 Vietnamese: vnWord,
                 UserID: 1,
                 UserEmail: user.UserEmail,
+                VocabularyID: 2,
             };
             const result = await VocabAPI.addNew(params);
             if (result) {
